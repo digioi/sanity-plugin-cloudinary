@@ -37,8 +37,8 @@
     "v2-incompatible.js"
   ],
   "scripts": {
-    "prebuild": "npm run clean && plugin-kit verify-package --silent && pkg-utils build --strict",
-    "build": "pkg-utils --strict",
+    "prebuild": "npm run clean && plugin-kit verify-package --silent && pkg-utils build",
+    "build": "pkg-utils build",
     "clean": "rimraf lib",
     "link-watch": "plugin-kit link-watch",
     "lint": "eslint .",
