@@ -49,7 +49,7 @@
   "dependencies": {
     "@sanity/icons": "^2.0.0",
     "@sanity/incompatible-plugin": "^1.0.4",
-    "@sanity/studio-secrets": "^2.0.1",
+    "@sanity/studio-secrets": "digioi/studio-secrets",
     "@sanity/ui": "^1.0.0",
     "nanoid": "^4.0.0"
   },
