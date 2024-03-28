@@ -43,7 +43,7 @@
     "link-watch": "plugin-kit link-watch",
     "lint": "eslint .",
     "prepare": "husky install",
-    "prepublishOnly": "run-s build",
+    "prepublishOnly": "npm run build",
     "watch": "pkg-utils watch --strict",
     "format": "prettier --write --cache --ignore-unknown ."
   },
